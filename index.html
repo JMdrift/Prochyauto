@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ProchyAuto — detailing a péče o automobily, Bílina</title>
+<meta name="description" content="Ruční mytí, hloubkové čištění interiéru, dekontaminace a ochrana laku. Bílina, okres Teplice. Certifikovaný partner Koch-Chemie.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#/"><img src="logo.png" alt="ProchyAuto"></a>
+    <nav class="nav-links">
+      <a href="#/">Domů</a><a href="#/sluzby">Služby</a><a href="#/cenik">Ceník</a><a href="#/prace">Naše práce</a><a href="#/kontakt">Kontakt</a>
+    </nav>
+    <a class="nav-cta" href="#/kontakt">Poptat termín</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+  <div id="menu">
+    <a href="#/">Domů</a><a href="#/sluzby">Služby</a><a href="#/cenik">Ceník</a><a href="#/prace">Naše práce</a><a href="#/kontakt">Kontakt</a>
+  </div>
+</header>
+
+<main>
+
+<div class="page" data-page="/">
+  <div class="hero">
+    <img class="bg" id="heroImg" src="kona-n.jpg" alt="">
+    <div class="veil"></div>
+    <div class="wrap hero-in">
+      <img class="hero-logo" src="logo.png" alt="ProchyAuto">
+      <h1 id="heroTitle"></h1>
+      <p class="lead" id="heroText" style="margin-top:18px"></p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#/kontakt">Poptat termín</a>
+        <a class="btn btn-ghost" data-tel href="#">Zavolat</a>
+      </div>
+      <div class="meta" id="heroStats"></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">Co pro vás uděláme</p><h2 id="homeSvcTitle"></h2></div>
+      <div class="tiles" id="homeTiles"></div>
+      <div class="actions"><a class="btn btn-ghost" href="#/cenik">Kompletní ceník</a></div>
+    </div>
+  </section>
+  <hr class="gloss">
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">Naše práce</p><h2 id="homeWorksTitle"></h2><p class="lead" id="homeWorksText"></p></div>
+      <div class="strip" id="homeStrip"></div>
+      <div class="actions"><a class="btn btn-ghost" href="#/prace">Zobrazit galerii</a></div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2 id="homeCtaTitle"></h2>
+      <p class="lead" id="homeCtaText" style="margin-top:14px"></p>
+      <div class="actions"><a class="btn btn-primary" href="#/kontakt">Nezávazná poptávka</a></div>
+    </div>
+  </section>
+</div>
+
+<div class="page" data-page="/sluzby">
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Služby</p>
+        <h2>Vyberte péči, kterou váš vůz potřebuje.</h2>
+        <p class="lead">Každé auto nejdřív posoudíme a doporučíme rozsah, který dává smysl. Bez zbytečných úkonů navíc.</p>
+      </div>
+      <div id="svcList"></div>
+      <p class="note" id="svcNote"></p>
+      <div class="actions"><a class="btn btn-primary" href="#/kontakt">Poptat termín</a><a class="btn btn-ghost" href="#/cenik">Kompletní ceník</a></div>
+    </div>
+  </section>
+</div>
+
+<div class="page" data-page="/cenik">
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Ceník</p>
+        <h2>Péče pro každý stav vozu.</h2>
+        <p class="lead">Vyberte kategorii. Uvedené ceny jsou orientační pro běžný osobní vůz.</p>
+      </div>
+      <div class="tabs" id="priceTabs"></div>
+      <div class="plist" id="priceList"></div>
+      <p class="note" id="priceNote"></p>
+    </div>
+  </section>
+  <hr class="gloss">
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><p class="eyebrow">Balíčky</p><h2>Kompletní péče za výhodnější cenu.</h2></div>
+      <div class="pkgs" id="pkgs"></div>
+      <div class="actions"><a class="btn btn-primary" href="#/kontakt">Poptat termín</a></div>
+    </div>
+  </section>
+</div>
+
+<div class="page" data-page="/prace">
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Naše práce</p>
+        <h2>Každé auto má svůj výsledek.</h2>
+        <p class="lead">Výběr vozů, které prošly péčí ProchyAuto. Bez fotobanky — jen skutečná práce.</p>
+      </div>
+      <div class="albums" id="albumGrid"></div>
+      <div class="actions"><a class="btn btn-primary" href="#/kontakt">Chci to samé pro svůj vůz</a></div>
+    </div>
+  </section>
+</div>
+
+<div class="page" data-page="/album">
+  <section>
+    <div class="wrap">
+      <a class="back" href="#/prace">← Zpět na galerii</a>
+      <div class="sec-head"><p class="eyebrow" id="albService"></p><h2 id="albTitle"></h2><p class="lead" id="albDesc"></p></div>
+      <div class="shots" id="albShots"></div>
+      <div class="actions"><a class="btn btn-primary" href="#/kontakt">Poptat podobnou péči</a></div>
+    </div>
+  </section>
+</div>
+
+<div class="page" data-page="/kontakt">
+  <section>
+    <div class="wrap contact">
+      <div>
+        <p class="eyebrow">Kontakt</p>
+        <h2>Řekněte nám, co vaše auto potřebuje.</h2>
+        <p class="lead" style="margin-top:14px">Ozveme se, upřesníme rozsah práce a společně najdeme vhodný termín.</p>
+        <div id="contactInfo" style="margin-top:24px"></div>
+        <div class="map" id="mapBox"></div>
+      </div>
+
+      <form class="box" id="inqForm">
+        <label for="f1">Jméno a příjmení</label><input id="f1" name="name" required placeholder="Jan Novák">
+        <label for="f2">Telefon</label><input id="f2" name="phone" type="tel" required placeholder="725 298 367">
+        <label for="f3">E-mail</label><input id="f3" name="email" type="email" placeholder="jan@email.cz">
+        <label for="f4">O jakou službu máte zájem?</label>
+        <select id="f4" name="service"></select>
+        <label for="f5">Vůz a vaše představa</label>
+        <textarea id="f5" name="message" placeholder="Typ vozu, jeho stav a co byste chtěli vyřešit…"></textarea>
+        <div class="file">
+          <div style="margin-bottom:8px">Přiložit fotografii vozu</div>
+          <input type="file" id="f6" name="photo" accept="image/*">
+          <div style="margin-top:6px;font-size:12.5px">Nepovinné · JPG, PNG nebo WEBP · max 8 MB</div>
+        </div>
+        <div class="check"><input type="checkbox" id="ok" required><label for="ok" style="margin:0">Souhlasím se zpracováním údajů za účelem vyřízení poptávky.</label></div>
+        <button class="btn btn-primary" type="submit">Odeslat poptávku</button>
+        <div id="inqMsg"></div>
+      </form>
+    </div>
+  </section>
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap f-grid">
+    <div>
+      <img src="logo.png" alt="ProchyAuto">
+      <p id="fTagline"></p>
+      <p id="fAddress" style="margin-top:8px"></p>
+    </div>
+    <div><a href="#/sluzby">Služby</a><a href="#/cenik">Ceník</a><a href="#/prace">Naše práce</a><a href="#/kontakt">Kontakt</a></div>
+    <div><a data-tel href="#" id="fPhone"></a><a href="sprava.html">Správa webu</a><p id="fLegal" style="margin-top:14px"></p></div>
+  </div>
+</footer>
+
+<div class="bar">
+  <a class="btn btn-ghost" data-tel href="#">Zavolat</a>
+  <a class="btn btn-primary" href="#/kontakt">Poptat termín</a>
+</div>
+
+<div id="lb"><button class="cl" aria-label="Zavřít">✕</button><img alt=""></div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+{
+  "site": {
+    "name": "ProchyAuto",
+    "tagline": "Čistý interiér. Dokonalý exteriér. Ochrana, která vydrží.",
+    "phone": "+420 725 298 367",
+    "email": "",
+    "address": "Pražská 206/95, 418 01 Bílina",
+    "hours": "Po–Pá 8:00–17:00, So po domluvě",
+    "company": "Prochy čištění aut",
+    "ico": "19324588"
+  },
+  "hero": {
+    "image": "kona-n.jpg",
+    "title": "Lak, který drží odstup od času.",
+    "text": "Ruční mytí, hloubkové čištění interiéru, dekontaminace a ochrana laku. Bílina, okres Teplice.",
+    "stats": [
+      { "value": "od 700 Kč", "label": "ruční mytí exteriéru" },
+      { "value": "1 vůz denně", "label": "bez spěchu, bez fronty" },
+      { "value": "Koch-Chemie", "label": "certifikovaný partner" }
+    ]
+  },
+  "home": {
+    "servicesTitle": "Tři věci, které váš vůz potřebuje nejčastěji.",
+    "worksTitle": "Vozy, které u nás byly.",
+    "worksText": "Bez fotobanky — jen skutečná práce z dílny v Bílině.",
+    "ctaTitle": "Nevíte, co váš vůz potřebuje?",
+    "ctaText": "Zavolejte nebo napište. Projdeme stav vozu a doporučíme jen to, co má smysl."
+  },
+  "services": [
+    {
+      "name": "Ruční mytí exteriéru",
+      "price": "od 700 Kč",
+      "summary": "Bezkontaktní předmytí, ruční mytí, bezpečné sušení.",
+      "image": "detail-myti.jpg",
+      "items": [
+        "Předmytí aktivní pěnou a odstranění hrubé špíny",
+        "Ruční mytí metodou dvou kbelíků",
+        "Mytí kol a podběhů, ošetření pneumatik",
+        "Sušení mikrovláknem a stlačeným vzduchem"
+      ]
+    },
+    {
+      "name": "Kompletní čištění interiéru",
+      "price": "od 2 200 Kč",
+      "summary": "Tepování, čištění plastů, kůže i stropnice.",
+      "image": "range-rover-interier.jpg",
+      "items": [
+        "Vysátí kabiny včetně kufru a pod sedačkami",
+        "Extrakční tepování sedaček a koberců",
+        "Čištění a ošetření plastů bez mastného filmu",
+        "Čištění kůže, výživa a matný finiš"
+      ]
+    },
+    {
+      "name": "Dekontaminace laku",
+      "price": "od 1 300 Kč",
+      "summary": "Létavá rez, asfalt a zapečené nečistoty.",
+      "image": "detail-disky.jpg",
+      "items": [
+        "Chemická dekontaminace železitých částic",
+        "Odstranění asfaltu a zbytků lepidel",
+        "Clay bar — mechanické čištění povrchu laku",
+        "Odmaštění před leštěním nebo ochranou"
+      ]
+    },
+    {
+      "name": "Leštění a ochrana laku",
+      "price": "od 3 500 Kč",
+      "summary": "Korekce vad laku a dlouhodobá ochrana.",
+      "image": "detail-keramika.jpg",
+      "items": [
+        "Změření tloušťky laku a zkušební sekce",
+        "Jednokrokové nebo dvoukrokové leštění",
+        "Ochrana — vosk, sealant nebo keramika",
+        "Kontrola pod studeným světlem před předáním"
+      ]
+    }
+  ],
+  "priceGroups": [
+    {
+      "title": "Exteriér",
+      "items": [
+        { "name": "Ruční mytí", "price": "od 700 Kč" },
+        { "name": "Mytí a vosk", "price": "od 900 Kč" },
+        { "name": "Dekontaminace laku", "price": "od 1 300 Kč" },
+        { "name": "Mytí, dekontaminace a vosk", "price": "od 1 600 Kč" }
+      ]
+    },
+    {
+      "title": "Interiér",
+      "items": [
+        { "name": "Základní čištění", "price": "od 900 Kč" },
+        { "name": "Tepování sedaček", "price": "od 1 300 Kč" },
+        { "name": "Tepování sedaček a koberců", "price": "od 1 600 Kč" },
+        { "name": "Kompletní čištění interiéru", "price": "od 2 200 Kč" },
+        { "name": "Ozonová dezinfekce", "price": "od 500 Kč" }
+      ]
+    },
+    {
+      "title": "Leštění",
+      "items": [
+        { "name": "Jednokrokové leštění", "price": "od 3 500 Kč" },
+        { "name": "Dvoukrokové leštění", "price": "od 5 500 Kč" },
+        { "name": "Renovace světlometů", "price": "od 1 000 Kč" },
+        { "name": "Odstranění asfaltu a smůly", "price": "od 600 Kč" }
+      ]
+    },
+    {
+      "title": "Ochrana",
+      "items": [
+        { "name": "Vosk", "price": "od 700 Kč" },
+        { "name": "Sealant", "price": "od 900 Kč" },
+        { "name": "Keramická ochrana laku", "price": "od 4 000 Kč" },
+        { "name": "Keramická ochrana skel", "price": "od 1 000 Kč" },
+        { "name": "Keramická ochrana kol", "price": "od 1 500 Kč" }
+      ]
+    }
+  ],
+  "packages": [
+    { "name": "Start", "price": "od 1 200 Kč", "items": ["Ruční mytí", "Vysátí interiéru", "Čištění plastů", "Čištění skel"] },
+    { "name": "Komplet", "price": "od 2 500 Kč", "items": ["Ruční mytí", "Vysátí", "Kompletní čištění interiéru", "Tepování sedaček", "Čištění koberců", "Čištění skel"] },
+    { "name": "Premium", "price": "od 3 500 Kč", "items": ["Kompletní mytí", "Dekontaminace laku", "Vosk", "Kompletní interiér", "Tepování sedaček a koberců", "Čištění skel"] },
+    { "name": "Full detail", "price": "od 5 500 Kč", "items": ["Kompletní exteriér", "Dekontaminace", "Jednokrokové leštění", "Kompletní interiér", "Tepování", "Ochrana laku"] }
+  ],
+  "priceNote": "SUV, dodávky, sedmimístná vozidla a silně znečištěné vozy dle rozsahu práce. Konečnou cenu vždy potvrdíme předem.",
+  "albums": [
+    {
+      "id": "range-rover-sport",
+      "title": "Range Rover Sport",
+      "service": "Exteriér a kompletní interiér",
+      "description": "Ruční mytí, ochrana laku a čištění světlé kůže včetně zadních sedadel.",
+      "photos": ["range-rover.jpg", "range-rover-interier.jpg", "range-rover-sedadla.jpg"]
+    },
+    {
+      "id": "hyundai-kona-n",
+      "title": "Hyundai Kona N",
+      "service": "Leštění a ochrana laku",
+      "description": "Dekontaminace, jednokrokové leštění a keramická ochrana.",
+      "photos": ["kona-n.jpg"]
+    },
+    {
+      "id": "mercedes-amg-gt63s",
+      "title": "Mercedes-AMG GT 63 S",
+      "service": "Ruční mytí a leštění",
+      "description": "Kompletní očista černého laku a oživení lesku.",
+      "photos": ["amg-gt63s.jpg"]
+    },
+    {
+      "id": "mercedes-s63-coupe",
+      "title": "Mercedes S 63 Coupé",
+      "service": "Dekontaminace a vosk",
+      "description": "Odstranění létavé rzi a ochrana laku voskem.",
+      "photos": ["mercedes-s63.jpg"]
+    },
+    {
+      "id": "skoda-kodiaq-rs",
+      "title": "Škoda Kodiaq RS",
+      "service": "Kompletní péče",
+      "description": "Exteriér i interiér v jednom dni.",
+      "photos": ["kodiaq-rs.jpg"]
+    },
+    {
+      "id": "skoda-octavia",
+      "title": "Škoda Octavia",
+      "service": "Ruční mytí a leštění",
+      "description": "Modrý metalický lak po jednokrokovém leštění.",
+      "photos": ["octavia.jpg"]
+    },
+    {
+      "id": "fiat-600",
+      "title": "Fiat 600",
+      "service": "Péče o veterána",
+      "description": "Šetrné ruční mytí a ochrana původního laku.",
+      "photos": ["fiat-600.jpg"]
+    },
+    {
+      "id": "audi-tt",
+      "title": "Audi TT",
+      "service": "Hloubkové čištění interiéru",
+      "description": "Tepování koberců a čištění plastů.",
+      "photos": ["audi-tt-interier.jpg"]
+    }
+  ]
+}
