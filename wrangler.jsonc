@@ -1,1 +1,22 @@
-
+{
+  "name": "prochyauto-web",
+  "main": "_worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "prochyauto",
+      "database_id": "f378ba57-6c6a-4e67-baab-257a08581d7d"
+    }
+  ],
+  "kv_namespaces": [
+    {
+      "binding": "PHOTOS",
+      "id": "ed52496c71b84b15907e270bb87745fa"
+    }
+  ]
+}
